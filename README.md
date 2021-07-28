@@ -21,7 +21,7 @@ This script can be run with the following, where -i is the input protein file in
 A folder in the location where SP_prediction.py is run, will be created that contains output folders for each prediction program as well as a folder for venn diagrams if more than one predictor is run.
 
 ## Notes
-Currently, this is written for using the four predictors in my virtual environment. Only SignalP and Deepsig are in my path. Lines 33, 47, 63 and 81 contain the code for running the predictors and these will likely need to be changed for running in your own environment. I may update this in the future.
+Currently, this is written for using the four predictors on fungal datasets in my virtual environment. Only SignalP and Deepsig are in my path. Lines 33, 47, 63 and 81 contain the code for running the predictors and these will likely need to be changed for running in your own environment. I may update this in the future.
 
 Included in this repository is also a script to extract the final proteins from the consensus list and write them to a new file. I may also incorporate this in a future update. It's usage is as follows `./protein_extract.py <consensus file> <protein file> <output file>` and will require Biopython.
 
