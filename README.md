@@ -28,7 +28,7 @@ Included in this repository is also a script to extract the final proteins from 
 
 ## Full options and usage
 ```
-usage: Signal_peptide_runner.py -i INPUT [-p] [-s] [-d] [-w] [-h]
+usage: SP_prediction.py -i INPUT [-p] [-s] [-d] [-w] [-h]
 
 Signal Peptide Prediction
 
